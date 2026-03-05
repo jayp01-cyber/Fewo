@@ -1,4 +1,4 @@
-/* Basic reset */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -6,8 +6,8 @@ body {
 
 .navbar {
   display: flex;
-  align-items: center; /* Vertically centers everything */
-  justify-content: space-between; /* Pushes logo to left, nav to right */
+  align-items: center; 
+  justify-content: space-between; 
   padding: 15px 40px;
   background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
@@ -22,7 +22,7 @@ body {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 25px; /* Adds consistent spacing between links */
+  gap: 25px; 
 }
 
 .nav-links a {
@@ -31,8 +31,6 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
-
-/* The "Open App" button style */
 .btn-app {
   border: 1px solid #d3d3d3;
   padding: 8px 18px;
@@ -46,3 +44,22 @@ body {
 .btn-app:hover {
   background-color: #f0f7ff;
 }
+.accomodation{
+position: relative;
+}
+.accomodation{
+background-image:url(i1.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 60vh;
+
+} 
+.accomodation h1{
+    color: white;
+    
+}
+
