@@ -1,0 +1,48 @@
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center; /* Vertically centers everything */
+  justify-content: space-between; /* Pushes logo to left, nav to right */
+  padding: 15px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  color: #0067db;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px; /* Adds consistent spacing between links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1a1a1b;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* The "Open App" button style */
+.btn-app {
+  border: 1px solid #d3d3d3;
+  padding: 8px 18px;
+  border-radius: 25px;
+  color: #0067db !important;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-app:hover {
+  background-color: #f0f7ff;
+}
